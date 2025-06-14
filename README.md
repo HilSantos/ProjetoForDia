@@ -19,23 +19,23 @@ namespace ProjetoForDia
             string nome, cidade;
             int idade;
 
-            for (int i = 0; i < 4; i++)
+for (int i = 0; i < 4; i++)
             {
                 Console.WriteLine("Informe seu nome: ");
                 nome = Console.ReadLine();
 
-                Console.WriteLine("Informe a cidade: ");
+Console.WriteLine("Informe a cidade: ");
                 cidade = Console.ReadLine();
 
-                Console.WriteLine("Digite o ano de nascimento do usuario: ");
+Console.WriteLine("Digite o ano de nascimento do usuario: ");
                 idade = Convert.ToInt32(Console.ReadLine());
 
-                idade = DateTime.Now.Year - idade;
+idade = DateTime.Now.Year - idade;
                 Console.WriteLine("Nome: " + nome);
                 Console.WriteLine("Idade: " + idade);
             }
 
-                Console.ReadKey();
+Console.ReadKey();
         }
     }
 }
